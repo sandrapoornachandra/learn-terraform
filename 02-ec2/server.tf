@@ -18,7 +18,7 @@ resource "aws_route53_record" "frontend" {
   terraform {
     backend "s3" {
       bucket = "terrafrom-roboshop"
-      key    = "ami/terraform.tfstate"
+      key    = "dev/terraform.tfstate"
       region = "us-east-1"
     }
   }
