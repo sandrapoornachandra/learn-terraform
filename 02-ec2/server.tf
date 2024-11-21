@@ -19,6 +19,5 @@ resource "aws_instance" "frontend" {
 }
 
 provider "aws" {
-  region = "us-east-1" # Replace with your desired AWS region
-  profile = "default" # Specify the AWS CLI profile to use (optional)
+  region = "us-east-1" # Replace with your desired AWS region# Specify the AWS CLI profile to use (optional)
 }
